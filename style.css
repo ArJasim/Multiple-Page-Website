@@ -76,6 +76,7 @@ header{
 main{
     background-color: #2D2364;
     padding-top:20px;
+    padding-bottom: 50px;
     
 }
 #main-section{
@@ -165,4 +166,59 @@ main{
 }
 #previous-next-parent div a:first-child{
     background-color:#04AA6D ;
+}
+
+/* footer section code start */
+
+footer{
+    background-color: #5F1E69;
+    color: white;
+}
+
+#footer-container{
+    width: 900px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+.footer-firstItems h3{
+    font-size: 25px;
+    padding:30px 0 ;
+    margin-top: 20px;
+}
+.footer-firstItems:first-child p{
+    margin-bottom: 40px;
+}
+.footer-secondtItems h3{
+    font-size: 25px;
+    padding:30px 0 ;
+    margin-top: 20px;
+}
+.footer-secondtItems a{
+    text-decoration: none;
+    color: white;
+}
+.footer-secondtItems p{
+    margin-bottom: 10px;
+}
+.footer-thirdItems div{
+    font-size: 25px;
+    padding:30px 0 ;
+    margin-top: 20px;
+}
+.footer-thirdItems div a{
+    color:white ;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color:#1A1244 ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-thirdItems p{
+   margin-bottom: 10px; 
+}
+.footer-thirdItems p:nth-child(3){
+    margin-bottom: 50px;
 }
